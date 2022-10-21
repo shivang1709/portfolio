@@ -1,0 +1,34 @@
+.main_skills{
+    padding-top: 0.8rem;
+    height: 85vh;
+    color: white;
+    background-color: #191919;
+
+  }
+  .main_skills h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2.6rem;
+  }
+  .skills{
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    /* flex-direction: column; */
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .htmlS{
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 125px;
+    width: 143px;
+    margin: 0 60px;
+    padding: 18px;
+    gap: 15px;
+    border-radius: 0.31rem;
+  }
